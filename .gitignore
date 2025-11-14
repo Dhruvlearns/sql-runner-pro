@@ -1,0 +1,41 @@
+# sql-runner-pro/.gitignore
+
+# ------------------------------------------------------------------
+# GENERAL/OS
+# ------------------------------------------------------------------
+.DS_Store
+.env
+.idea/
+*.log
+npm-debug.log*
+
+# ------------------------------------------------------------------
+# BACKEND (Python/FastAPI)
+# ------------------------------------------------------------------
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Database file
+# The assignment requires this file to be included IF it contains the
+# sample data. If you created it on your own, keep it, but often
+# database files are ignored and seeded via script.
+# For this submission, keep it **uncommented** if you are including it
+# with the seeded data, otherwise, it should be ignored:
+# sql_runner.db
+
+# Build Artifacts
+dist/
+build/
+
+# ------------------------------------------------------------------
+# FRONTEND (React/Vite)
+# ------------------------------------------------------------------
+/frontend/node_modules
+/frontend/dist     # Vite build output directory
+/frontend/.vite/
+
+# NPM packages
+node_modules/
