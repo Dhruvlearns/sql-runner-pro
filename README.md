@@ -9,12 +9,12 @@ The application successfully meets all core requirements and includes bonus feat
 ### Core Functionality
 * **Query Input Area:** A dedicated text area for typing/pasting SQL queries.
 * **Query Execution:** A "Run Query" button submits the query to the Python backend for execution.
-* [cite_start]**Results Display:** Clear, well-formatted tabular display of results, including column headers and rows[cite: 13, 14].
-* [cite_start]**Error Handling:** Robust error handling on the backend catches invalid queries and returns informative error messages to the frontend[cite: 27, 176].
+* **Results Display:** Clear, well-formatted tabular display of results, including column headers and rows.
+* **Error Handling:** Robust error handling on the backend catches invalid queries and returns informative error messages to the frontend.
 
 ### Table Explorer
-* [cite_start]**Available Tables Panel:** A sidebar displays a list of available database tables (`Customers`, `Orders`, `Shippings`)[cite: 16].
-* [cite_start]**Schema & Sample Data:** Clicking a table name fetches and displays its column schema (name and data type) and the first 5 sample rows[cite: 17, 30].
+* **Available Tables Panel:** A sidebar displays a list of available database tables (`Customers`, `Orders`, `Shippings`).
+* **Schema & Sample Data:** Clicking a table name fetches and displays its column schema (name and data type) and the first 5 sample rows.
 
 ### Bonus Features Implemented
 * **Recent Run Queries (Query History):** Stores and displays the last 10 successful queries in a panel, allowing the user to click and re-run them instantly. This history is maintained in-memory.
