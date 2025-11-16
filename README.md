@@ -1,6 +1,12 @@
 #  SQL Runner Tool: Full-Stack Database Explorer
 
 This project is a full-stack web application designed to act as a simple SQL Runner, allowing users to execute arbitrary SQL queries against a sample SQLite database, view tabular results, and explore table schemas.
+#  SQL Runner Tool Screen Shots
+1.
+<img width="1852" height="922" alt="sql_runner_pro" src="https://github.com/user-attachments/assets/cf91591d-b6b0-40bd-8932-2e7813df6715" />
+ 2.   
+<img width="1800" height="923" alt="sql_runner" src="https://github.com/user-attachments/assets/4a7f5e4d-1013-42f0-99ae-bc8fddb9881c" />
+
 
 ##  Features Implemented
 
