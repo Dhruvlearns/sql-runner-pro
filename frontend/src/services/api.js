@@ -1,9 +1,7 @@
 // frontend/src/services/api.js
 
-// frontend/src/services/api.js
-// Use the environment variable set in docker-compose for the containerized environment,
-// otherwise fall back to localhost for local development outside of Docker.
-const API_BASE_URL = import.meta.env.VITE_APP_API_URL || 'http://localhost:8000/api/v1';
+// Base URL for the FastAPI backend
+const API_BASE_URL = 'http://localhost:8000/api/v1';
 
 /**
  * Executes a POST request to run an SQL query.

@@ -1,4 +1,3 @@
-# backend/app/api/sql_router.py
 from fastapi import APIRouter
 from typing import List, Dict, Union
 
@@ -13,9 +12,8 @@ router = APIRouter(prefix="/sql", tags=["SQL Runner"])
 def run_sql_query(query_data: QueryModel):
     """
     Accepts an SQL query and executes it against the database.
-    Returns the results or an error message.
+    Returns the results (List[Dict]) or a message/error (Dict[str, str]).
     """
-    # [cite_start]The QueryModel ensures we receive a JSON body like: {"query": "SELECT * FROM Customers"} [cite: 21]
     results = execute_query(query_data.query)
     return results
 
@@ -32,7 +30,7 @@ def list_available_tables():
 @router.get("/tables/{table_name}", response_model=Dict)
 def get_table_details(table_name: str):
     """
-    [cite_start]Fetches the column schema (name/type) and sample rows (LIMIT 5) for a specific table. [cite: 30, 152]
+    Fetches the column schema (name/type) and sample rows (LIMIT 5) for a specific table.
     """
     info = get_table_info(table_name)
     return info

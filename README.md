@@ -45,9 +45,9 @@ The SQLite database file must be created and seeded with sample data before star
     ```bash
     cd sql-runner-pro
     ```
-2.  Create and open the database file (`sql_runner.db` is placed inside the `backend/` directory):
+2.  Create and open the database file (`mydatabase.db` is placed inside the `root` directory):
     ```bash
-    sqlite3 backend/sql_runner.db
+    sqlite3 mydatabase.db
     ```
 3.  Paste and execute the table creation and insertion commands provided in the assignment document (for `Customers`, `Orders`, and `Shippings` tables).
 4.  Exit the SQLite CLI:
@@ -67,7 +67,7 @@ The SQLite database file must be created and seeded with sample data before star
     ```
 3.  Start the FastAPI server:
     ```bash
-    python app/main.py
+    python -m app.main
     ```
     The API will be running on `http://localhost:8000`.
 
