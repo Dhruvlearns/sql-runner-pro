@@ -3,7 +3,7 @@ from typing import List, Dict, Union
 
 # Use the path relative to the app/ directory. 
 # Assuming sql_runner.db is one level up in the 'backend' directory.
-DATABASE_URL = '../sql_runner.db'
+DATABASE_URL = '../mydatabase.db'
 
 def get_db_connection() -> sqlite3.Connection:
     """Creates and returns a database connection object."""
