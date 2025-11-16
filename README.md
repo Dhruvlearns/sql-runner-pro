@@ -32,7 +32,7 @@ The application successfully meets all core requirements and includes bonus feat
 | **Frontend** | React (JavaScript) | Vite, Fetch API |
 | **Backend** | Python | FastAPI, Uvicorn |
 | **Database** | SQLite | Python `sqlite3` module |
-| **Data Format** | JSON | [cite_start]Data exchange between FE/BE is exclusively JSON[cite: 36]. |
+| **Data Format** | JSON | Data exchange between FE/BE is exclusively JSON. |
 
 ## 🛠️ Setup and Local Execution Guide
 
